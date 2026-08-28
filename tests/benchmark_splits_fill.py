@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
     for each in range(REPEAT):
         sl = init_sorted_list(SortedListWithSplits(), LIMIT)
-        fill(sl, LIMIT / RATIO, LIMIT)
+        fill(sl, LIMIT // RATIO, LIMIT)
         uniform_splits.append(sl.splits)
 
     rand_splits = []
