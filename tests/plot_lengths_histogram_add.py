@@ -88,7 +88,7 @@ if __name__ == '__main__':
         values.add(func())
 
     fig = plt.figure()
-    bounds = (LOAD - 5 * LOAD // 100, LOAD * 2 - 5 * LOAD // 100)
+    bounds = (LOAD - 5 * LOAD // 100, LOAD * 2 + 5 * LOAD // 100)
     ax = plt.axes(xlim=bounds, ylim=(0, 0.01))
     (hist_line,) = ax.plot([], [])
     (norm_line,) = ax.plot([], [])
