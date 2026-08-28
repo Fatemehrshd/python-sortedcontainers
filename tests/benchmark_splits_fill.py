@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
     for each in range(REPEAT):
         sl = SortedListWithSplits(range(LIMIT))
-        fill(sl, LIMIT / RATIO, LIMIT)
+        fill(sl, LIMIT // RATIO, LIMIT)
         low_splits.append(sl.splits)
 
     uniform_splits = []
