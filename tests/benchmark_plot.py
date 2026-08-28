@@ -79,7 +79,8 @@ if __name__ == '__main__':
     parser.add_argument('--save', action='store_true', help='save results')
     args = parser.parse_args()
 
-    text = open(args.filename).read()
+    with open(args.filename) as f:
+        text = f.read()
 
     lines = text.splitlines()
     lines = [line.split() for line in lines]
