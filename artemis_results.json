@@ -1,9 +1,0 @@
-{
-  "sl_add_ops_per_sec": 1328209.385,
-  "sl_contains_ops_per_sec": 2879908.1292,
-  "sl_index_ops_per_sec": 1094131.7661,
-  "sl_remove_ops_per_sec": 1533802.1076,
-  "sd_setitem_ops_per_sec": 997846.3184,
-  "total_workload_seconds": 0.2533,
-  "peak_memory_mb": 1.5294
-}
