@@ -281,7 +281,7 @@ def display(name, times, size, last=['', 0]):
     "Display performance summary with ratio of ops/sec."
 
     times.sort()
-    median_time = times[len(times) / 2]
+    median_time = times[len(times) // 2]
     operations = size / 100
     ops_sec = operations / median_time
 
