@@ -46,7 +46,7 @@ if __name__ == '__main__':
     values = sc.SortedList(xrange(LOAD * LOAD), load=LOAD)
 
     fig = plt.figure()
-    bounds = (LOAD // 2 - 5 * LOAD // 100, LOAD * 2 - 5 * LOAD // 100)
+    bounds = (LOAD // 2 - 5 * LOAD // 100, LOAD * 2 + 5 * LOAD // 100)
     ax = plt.axes(xlim=bounds, ylim=(0, 1000))
     (hist_line,) = ax.plot([], [])
     (norm_line,) = ax.plot([], [])
