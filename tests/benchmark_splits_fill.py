@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
         sl.splits = 0
 
-        fill(sl, LIMIT / RATIO, LIMIT)
+        fill(sl, LIMIT // RATIO, LIMIT)
         rand_splits.append(sl.splits)
 
     print('Low', low_splits)
